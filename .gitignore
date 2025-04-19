@@ -1,0 +1,23 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.class
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Large model files
+backend/ucdavis-model-production/
+
+# Node modules
+frontend/node_modules/
+
+# Environment variables
+.env
+
+# OS specific files
+.DS_Store
+
