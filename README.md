@@ -5,13 +5,12 @@ A webpage that provides recommendations to UC Davis students based on their quer
 UC Davis Study Buddy is a web application designed to help students navigate campus life more effectively. It provides recommendations for study resources, places to eat, mental health resources, entertainment options, and more based on user queries. The project aims to be a one-stop solution for common student needs at UC Davis.
 
 ### Key Features
-   - Recommendations: Recommend me resources and places to study [academic topic goes here]
    - **🧋 Entertainment**: I want to drink boba, recommend me a place
    - **📘 Study**: I want to find a quiet space, recommend me a place on campus/off-campus
    - **🧠 Mental Health**: I am feeling overwhelmed, where should I go to relax? 
    - **🎶 Music**: I want some soft music to help me concentrate on homework
    - **🍔 Food**: I want to eat a burger, where to eat?
-   - **📢 Social Hub** - Letting your fellow students know about events or things happening on campus, like "there are ducks by the Silo right now!"
+   - **📢 Social Hub**: Letting your fellow students know about events or things happening on campus, like "there are ducks by the Silo right now!"
 
 ## Getting Started
 
@@ -29,22 +28,22 @@ Describe any prerequisites, libraries, OS version, etc., needed before installin
 2. open browser
 3. Enter your query in the search box
 
-## Team 👥🧑‍💻 
+## 👥 Team 
    - Aliyah A
    - Gezheng K
    - Mark B
    - Vivian S
 
-## Communication
+## 🗣️ Communication
 Collaboration and communication happens on our [Google Colab](https://colab.research.google.com/drive/1xd8s3wGSvPnfv4rlWHUSXP08Vzx9xdP4?usp=sharing)
 
-## Project Development
+## 🛠 Project Development
 View our working script and project progress on [Google Colab](https://colab.research.google.com/drive/1E2UqUssxm1ouwbwJL_IxvNAXbC3HhQoD?usp=sharing)
 
 ## Help
 For any issues or questions, please contact any team member.
 
-## Future Enhancements
+## 🚧 Future Enhancements
 1. Implement user accounts for personalized recommendations
 2. Add real-time updates for social hub events
 3. Integrate with UC Davis APIs for more accurate recommendations
