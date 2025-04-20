@@ -1,50 +1,149 @@
-# HackDavis2025 Project: AI-Powered UC Davis Students' Study Buddy Chatbot 🤝📚🧑‍🎓
-An AI-powered chatbot that provides recommendations to UC Davis students based on their queries.
+# 🚀 HackDavis 2025 Project: AI-Powered UC Davis Students' Study Buddy Chatbot 🤝📚🧑‍🎓
+
+An AI-powered chatbot that provides personalized, real-time recommendations to UC Davis students based on their everyday queries.
+
+---
 
 ## 📌 Overview
-UC Davis Study Buddy is a web application designed to help students navigate campus life more effectively. It provides recommendations for study resources, places to eat, mental health resources, entertainment options, and more based on user queries. The project aims to be a one-stop solution for common student needs at UC Davis.
+
+UC Davis Study Buddy is a full-stack **generative AI web application** designed to help students navigate campus life more effectively. It offers intelligent recommendations for study resources, food, entertainment, mental health, and social updates — acting as a one-stop solution for the UC Davis community.
 
 ### Key Features
-   - **🧋 Entertainment**: I want to drink boba, recommend me a place
-   - **📘 Study**: I want to find a quiet space, recommend me a place on campus/off-campus
-   - **🧠 Mental Health**: I am feeling overwhelmed, where should I go to relax? 
-   - **🎶 Music**: I want some soft music to help me concentrate on homework
-   - **🍔 Food**: I want to eat a burger, where to eat?
-   - **📢 Social Hub**: Letting your fellow students know about events or things happening on campus, like "there are ducks by the Silo right now!"
+- **🧋 Entertainment**: "I want to drink boba, recommend me a place."
+- **📘 Study**: "I need a quiet study spot on or off-campus."
+- **🧠 Mental Health**: "I'm feeling overwhelmed. Where can I relax?"
+- **🎶 Music**: "I want some soft music to concentrate on homework."
+- **🍔 Food**: "I want a burger. Where should I eat?"
+- **📢 Social Hub**: "Letting students know about live events, like 'ducks near the Silo!'"
 
-## Getting Started
+---
 
-### Dependencies
-Describe any prerequisites, libraries, OS version, etc., needed before installing program.
+## 🛠️ Built With
 
-### Installing
-- How/where to download your program
-- Any modifications needed to be made to files/folders
+- **Python 3.12** — Core programming language
+- **Hugging Face Transformers** — Fine-tuning `distilgpt2` generative model
+- **PyTorch** — Model training and inference
+- **FastAPI** — Lightweight backend server for model interaction
+- **Gradio** — Frontend web UI for user-friendly chatbot interface
+- **Apple Silicon MPS Backend** — Mac M1/M2/M3 hardware acceleration
+- **VSCode** — Primary development environment
+- **MacOS Local Deployment** — Fully local model training and hosting
 
-### Executing program
-- How to run the program
-- Step-by-step bullets
-1. run server
-2. open browser
-3. Enter your query in the search box
+---
 
-## 👥 Team 
-   - Aliyah A - alazizi@ucdavis.edu
-   - Gezheng K - gzkang@ucdavis.edu
-   - Mark B - ltble@ucdavis.edu
-   - Vivian S - vjsun@ucdavis.edu
+## 📥 Getting Started
+
+### 📋 Dependencies
+
+Make sure you have the following installed:
+- Python 3.9–3.12
+- Pip3
+- Required Python packages:
+
+```bash
+pip3 install torch transformers fastapi uvicorn gradio requests accelerate
+```
+
+Or install from the provided `requirements.txt`:
+
+```bash
+pip3 install -r requirements.txt
+```
+
+> 💡 Ensure you are using the correct Python environment (not Conda `(base)` unless configured).
+
+---
+
+### 🔧 Installing
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/GegeKang/AI-Powered-UC-Davis-Students-Study-Buddy-Chatbot.git
+cd AI-Powered-UC-Davis-Students-Study-Buddy-Chatbot
+```
+
+2. (Optional but recommended) Create and activate a virtual environment:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+```
+
+3. Make sure the fine-tuned model folder (`ucdavis-model-production/`) is present inside the project directory.
+
+---
+
+### ▶️ Executing Program
+
+**Step-by-Step:**
+
+1. **Start Backend Server** (Terminal 1):
+   ```bash
+   uvicorn backend_server:app --reload --port 8000
+   ```
+
+2. **Start Frontend Web UI** (Terminal 2):
+   ```bash
+   python3 frontend_ui.py
+   ```
+
+3. **Interact with the Assistant**:
+   - Open your browser at [http://127.0.0.1:7860](http://127.0.0.1:7860)
+   - Enter your query into the chatbot box.
+   - Instantly receive UC Davis-specific recommendations!
+
+---
+
+## 👥 Team
+
+| Name | Email |
+|:---|:---|
+| Aliyah A | alazizi@ucdavis.edu |
+| Gezheng K | gzkang@ucdavis.edu |
+| Mark B | ltble@ucdavis.edu |
+| Vivian S | vjsun@ucdavis.edu |
+
+---
 
 ## 🗣️ Communication
-Collaboration and communication happens on our [Google Colab](https://colab.research.google.com/drive/1xd8s3wGSvPnfv4rlWHUSXP08Vzx9xdP4?usp=sharing)
 
-## 🛠 Project Development
-View our working script and project progress on [Google Colab](https://colab.research.google.com/drive/1E2UqUssxm1ouwbwJL_IxvNAXbC3HhQoD?usp=sharing)
+Collaboration and communication throughout the project was maintained via our [Google Colab Development Space](https://colab.research.google.com/drive/1xd8s3wGSvPnfv4rlWHUSXP08Vzx9xdP4?usp=sharing).
 
-## Help
-For any issues or questions, please contact any team member through our provided emails.
+---
 
-## 🚧 Future Enhancements
-1. Implement user accounts for personalized recommendations
-2. Add real-time updates for social hub events
-3. Integrate with UC Davis APIs for more accurate recommendations
-4. Develop mobile application version
+## 🛠 Project Development Progress
+
+View our working scripts, model experimentation, and overall project progress on [Google Colab Project Workspace](https://colab.research.google.com/drive/1E2UqUssxm1ouwbwJL_IxvNAXbC3HhQoD?usp=sharing).
+
+---
+
+## 🛎 Help
+
+For any issues, bugs, or inquiries, feel free to reach out to any team member through the provided emails.
+
+---
+
+## 🚀 Future Enhancements
+
+1. **User Accounts** — Implement authentication for personalized recommendations.
+2. **Real-Time Social Hub** — Add real-time live event posting and notifications.
+3. **API Integration** — Connect to official UC Davis APIs for campus map data and event updates.
+4. **Mobile App** — Develop a lightweight mobile version for iOS and Android.
+
+---
+
+# 🎯 Summary
+
+✅ Built a **localized generative AI chatbot** customized for UC Davis students.  
+✅ Fine-tuned and deployed Hugging Face `distilgpt2` **fully locally** using PyTorch and FastAPI.  
+✅ Delivered a **production-ready** web experience using Gradio UI.
+
+---
+
+# ✨ Final Note:
+
+Thank you for exploring our project! 🌟 We hope this Study Buddy assistant improves the daily lives of UC Davis students, and we look forward to expanding it in the future.
+
+---
