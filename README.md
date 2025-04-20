@@ -7,6 +7,7 @@ An AI-powered chatbot that provides personalized, real-time recommendations to U
 ## 📚 Table of Contents
 
 - [📌 Overview](#-overview)
+- [📺 Demo](#-demo)
 - [🛠️ Built With](#️-built-with)
 - [📥 Getting Started](#-getting-started)
   - [📋 Dependencies](#-dependencies)
@@ -19,6 +20,7 @@ An AI-powered chatbot that provides personalized, real-time recommendations to U
 - [🚀 Future Enhancements](#-future-enhancements)
 - [🎯 Summary](#-summary)
 - [✨ Final Note](#-final-note)
+
 
 ---
 
@@ -33,6 +35,11 @@ UC Davis Study Buddy is a full-stack **generative AI web application** designed 
 - **🎶 Music**: "I want some soft music to concentrate on homework."
 - **🍔 Food**: "I want a burger. Where should I eat?"
 - **📢 Social Hub**: "Letting students know about live events, like 'ducks near the Silo!'"
+
+---
+## 📺 Demo
+
+![UC Davis Study Buddy Chatbot Demo](showcase-animation.gif)
 
 ---
 
