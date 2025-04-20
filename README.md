@@ -14,6 +14,26 @@ UC Davis Study Buddy is a web application designed to help students navigate cam
 ## Getting Started
 
 ### Dependencies
+Describe any prerequisites, libraries, OS version, etc., needed before installing program.
+
+### Installing
+How/where to download your program
+Any modifications needed to be made to files/folders
+
+### Executing program
+How to run the program
+Step-by-step bullets
+1. run server
+2. open browser
+3. Enter your query in the search box
+
+## Features
+- **Study Recommendations**: Get resources for academic topics
+- **Entertainment Suggestions**: Find places to relax or have fun
+- **Study Spaces**: Locate quiet places on/off campus
+- **Mental Health Resources**: Get recommendations when feeling overwhelmed
+- **Food Options**: Find places to eat based on cravings
+- **Social Hub**: Share and discover campus events
 
 ## Team
    - Aliyah A
