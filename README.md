@@ -1,4 +1,4 @@
-# HackDavis2025 Project: UC Davis Study Buddy 🤝📚🧑‍🎓
+# HackDavis2025 Project: AI-Powered UC Davis Students' Study Buddy Chatbot 🤝📚🧑‍🎓
 An AI-powered chatbot that provides recommendations to UC Davis students based on their queries.
 
 ## 📌 Overview
