@@ -1,23 +1,37 @@
-# HackDavis2025_Project
+# HackDavis2025_Project: UC Davis Study Buddy
+A webpage that provides recommendations to UC Davis students based on their queries.
 
-## Idea: UC Davis Study Buddy
-1.Protocal:
-   A web that user can enter their query, like,
-   - Recommendations: Recommend me resources to study [academic topic goes here]
+## Description
+UC Davis Study Buddy is a web application designed to help students navigate campus life more effectively. It provides recommendations for study resources, places to eat, mental health resources, entertainment options, and more based on user queries. The project aims to be a one-stop solution for common student needs at UC Davis.
+   - Recommendations: Recommend me resources and places to study [academic topic goes here]
    - Entertainment: I want to drink boba, recommend me a place
    - Study: I want to find a quiet space, recommend me a place on campus/off-campus
    - Mental Health: I am feeling overwhelmed, where should I go to relax? 
-   - Music: I want some soft music to help me concernate on homework
-   - Food: I want to burger, where to eat?
-   - Social Hub - Letting your fellow students know about events or things happening on campus, like "there are ducks by the silo right now!"
+   - Music: I want some soft music to help me concentrate on homework
+   - Food: I want to eat a burger, where to eat?
+   - Social Hub - Letting your fellow students know about events or things happening on campus, like "there are ducks by the Silo right now!"
 
-2. Team:
-   - Aliyah A, Gezheng K, Mark B, Vivian S.
+## Getting Started
 
-3. ...
+### Dependencies
 
+## Team
+   - Aliyah A
+   - Gezheng K
+   - Mark B
+   - Vivian S
 
-Communication: https://colab.research.google.com/drive/1xd8s3wGSvPnfv4rlWHUSXP08Vzx9xdP4?usp=sharing
+## Communication
+Collaboration and communication happens on our [Google Colab](https://colab.research.google.com/drive/1xd8s3wGSvPnfv4rlWHUSXP08Vzx9xdP4?usp=sharing)
 
+## Project Development
+View our working script and project progress on [Google Colab](https://colab.research.google.com/drive/1E2UqUssxm1ouwbwJL_IxvNAXbC3HhQoD?usp=sharing)
 
-Script/Real Project/: https://colab.research.google.com/drive/1E2UqUssxm1ouwbwJL_IxvNAXbC3HhQoD?usp=sharing
+## Help
+For any issues or questions, please contact any team member.
+
+## Future Enhancements
+1. Implement user accounts for personalized recommendations
+2. Add real-time updates for social hub events
+3. Integrate with UC Davis APIs for more accurate recommendations
+4. Develop mobile application version
