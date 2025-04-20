@@ -1,4 +1,4 @@
-# 🚀 HackDavis 2025 Project: AI-Powered UC Davis Students' Study Buddy Chatbot 🤝📚🧑‍🎓
+# 🚀 HackDavis 2025 Project: AggieLife AI: Your UC Davis Study and Life Buddy 🤝📚🧑‍🎓
 
 An AI-powered chatbot that provides personalized, real-time recommendations to UC Davis students based on their everyday queries.
 
