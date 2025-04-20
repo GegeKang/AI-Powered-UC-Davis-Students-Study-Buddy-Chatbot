@@ -1,5 +1,5 @@
 :root {
-  --background-color: white;
+  --background-color: #e0ecf9; /* Changed to a more visible light blue background */
   --text-color: #333;
   --ucd-blue: #022851;
   --ucd-gold: #FFBF00;
@@ -24,6 +24,11 @@
   padding: 0;
 }
 
+html {
+  background-color: var(--background-color); /* Apply background to html element */
+  height: 100%;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--background-color);
@@ -33,8 +38,9 @@ body {
   width: 100%;
   margin: 0;
   display: flex;
-  place-items: center;
+  flex-direction: column; /* Changed from flex to ensure proper layout */
   min-width: 320px;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 h1 {

@@ -102,7 +102,7 @@ pip3 install -r requirements.txt
 |:---|:---|
 | Aliyah A | alazizi@ucdavis.edu |
 | Gezheng K | gzkang@ucdavis.edu |
-| Mark B | ltble@ucdavis.edu |
+| Mark L | ltble@ucdavis.edu |
 | Vivian S | vjsun@ucdavis.edu |
 
 ---
