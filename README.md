@@ -89,7 +89,8 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
-3. Make sure the fine-tuned model folder (`ucdavis-model-production/`) is present inside the project directory.
+3. Make sure the fine-tuned model folder (`ucdavis-model-production/`) is present inside the backend folder in the project directory. If you haven't have it you can compile one from the instruction below
+
 
 ---
 
@@ -100,7 +101,7 @@ Our chatbot is powered by a **fine-tuned `distilgpt2` model** trained on UC Davi
 ### How We Built the Model:
 
 1. **Training Dataset**:
-   - A custom `d3.txt` file containing UC Davis locations, study spaces, restaurants, and entertainment spots.
+   - A custom `ucdavis_data.txt` file containing UC Davis locations, study spaces, restaurants, and entertainment spots.
 2. **Fine-tuning**:
    - Using Hugging Face's `distilgpt2` model via PyTorch + Transformers library.
    - Trained locally for 40 epochs on an Apple Silicon MacBook (M1/M2) with MPS acceleration.
@@ -111,7 +112,7 @@ Our chatbot is powered by a **fine-tuned `distilgpt2` model** trained on UC Davi
 
 ### 🛠 How to Get the Model Working on Your Machine:
 
-1. Make sure you have the `ucdavis-model-production/` folder inside the project.
+1. Make sure you import the `ucdavis-model-production/` 'backend' folder inside the project.
    > (It contains `pytorch_model.bin`, `config.json`, `special_tokens_map.json`, etc.)
 
 2. If you don't have the folder:
@@ -119,7 +120,7 @@ Our chatbot is powered by a **fine-tuned `distilgpt2` model** trained on UC Davi
    - OR ask the team for a zip file of the trained model.
 
 3. Model loading is handled automatically in the backend:
-   - When you start `backend_server.py`, it loads the fine-tuned model from `ucdavis-model-production/`.
+   - When you start `main.py` in the backend, it loads the fine-tuned model from `ucdavis-model-production/`.
 
 ✅ No manual steps required after putting the model folder correctly!
 
@@ -138,16 +139,19 @@ Our chatbot is powered by a **fine-tuned `distilgpt2` model** trained on UC Davi
 
 1. **Start Backend Server** (Terminal 1):
    ```bash
-   uvicorn backend_server:app --reload --port 8000
+   cd backend
+   uvicorn main:app --reload --host 0.0.0.0 --port 8000
    ```
 
 2. **Start Frontend Web UI** (Terminal 2):
    ```bash
-   python3 frontend_ui.py
+   cd frontend
+   npm install
+   npm run dev
    ```
 
 3. **Interact with the Assistant**:
-   - Open your browser at [http://127.0.0.1:7860](http://127.0.0.1:7860)
+   - Open your browser at the localhost address at Vite give you in the terminal
    - Enter your query into the chatbot box.
    - Instantly receive UC Davis-specific recommendations!
 
