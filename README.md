@@ -17,12 +17,12 @@ UC Davis Study Buddy is a web application designed to help students navigate cam
 Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 
 ### Installing
-How/where to download your program
-Any modifications needed to be made to files/folders
+- How/where to download your program
+- Any modifications needed to be made to files/folders
 
 ### Executing program
-How to run the program
-Step-by-step bullets
+- How to run the program
+- Step-by-step bullets
 1. run server
 2. open browser
 3. Enter your query in the search box
