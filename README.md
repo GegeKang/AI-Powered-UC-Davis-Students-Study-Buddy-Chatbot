@@ -1,5 +1,5 @@
 # HackDavis2025 Project: UC Davis Study Buddy 🤝📚🧑‍🎓
-A webpage that provides recommendations to UC Davis students based on their queries.
+An AI-powered chatbot that provides recommendations to UC Davis students based on their queries.
 
 ## 📌 Overview
 UC Davis Study Buddy is a web application designed to help students navigate campus life more effectively. It provides recommendations for study resources, places to eat, mental health resources, entertainment options, and more based on user queries. The project aims to be a one-stop solution for common student needs at UC Davis.
