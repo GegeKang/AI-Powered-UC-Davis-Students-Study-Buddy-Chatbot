@@ -1,4 +1,4 @@
-# HackDavis2025_Project: UC Davis Study Buddy
+# HackDavis2025 Project: UC Davis Study Buddy
 A webpage that provides recommendations to UC Davis students based on their queries.
 
 ## Description
