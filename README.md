@@ -29,10 +29,10 @@ Describe any prerequisites, libraries, OS version, etc., needed before installin
 3. Enter your query in the search box
 
 ## 👥 Team 
-   - Aliyah A
-   - Gezheng K
-   - Mark B
-   - Vivian S
+   - Aliyah A - alazizi@ucdavis.edu
+   - Gezheng K - gzkang@ucdavis.edu
+   - Mark B - ltble@ucdavis.edu
+   - Vivian S - vjsun@ucdavis.edu
 
 ## 🗣️ Communication
 Collaboration and communication happens on our [Google Colab](https://colab.research.google.com/drive/1xd8s3wGSvPnfv4rlWHUSXP08Vzx9xdP4?usp=sharing)
@@ -41,7 +41,7 @@ Collaboration and communication happens on our [Google Colab](https://colab.rese
 View our working script and project progress on [Google Colab](https://colab.research.google.com/drive/1E2UqUssxm1ouwbwJL_IxvNAXbC3HhQoD?usp=sharing)
 
 ## Help
-For any issues or questions, please contact any team member.
+For any issues or questions, please contact any team member through our provided emails.
 
 ## 🚧 Future Enhancements
 1. Implement user accounts for personalized recommendations
