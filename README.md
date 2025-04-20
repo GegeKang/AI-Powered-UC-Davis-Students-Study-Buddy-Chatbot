@@ -24,8 +24,7 @@ An AI-powered chatbot that provides personalized, real-time recommendations to U
 
 ## 📌 Overview
 
-UC Davis Study Buddy is a full-stack **generative AI web application** designed to help students navigate campus life more effectively.  
-It offers intelligent recommendations for study resources, food, entertainment, mental health, and social updates — acting as a one-stop solution for the UC Davis community.
+UC Davis Study Buddy is a full-stack **generative AI web application** designed to help students navigate campus life more effectively. It offers intelligent recommendations for study resources, food, entertainment, mental health, and social updates — acting as a one-stop solution for the UC Davis community.
 
 ### Key Features
 - **🧋 Entertainment**: "I want to drink boba, recommend me a place."
